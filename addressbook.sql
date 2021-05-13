@@ -31,3 +31,7 @@ DELETE FROM addressbook WHERE firstname='Shivansh';
 
 #UC6
 SELECT * FROM addressbook WHERE city='Kanpur' OR state='Uttarakhand';
+
+#UC7
+SELECT COUNT(city) FROM addressbook;
+SELECT COUNT(state) FROM addressbook;
