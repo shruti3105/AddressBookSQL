@@ -22,3 +22,6 @@ INSERT INTO addressbook VALUES
 ('Anish','Goel','234 road','Kanpur','Uttar Pradesh',24562,1234567536,'abc@sv.com'),
 ('Shivansh','Singh','345 lane','Pune','Maharashtra',12345,765687536,'pqr@sin.com'),
 ('Vansh','Mishra','11 side','Dehradun','Uttarakhand',12568,576437436,'pqr@ch.com');
+
+#UC4
+UPDATE addressbook SET lastname='Shukla' WHERE firstname='Vansh';
