@@ -25,3 +25,6 @@ INSERT INTO addressbook VALUES
 
 #UC4
 UPDATE addressbook SET lastname='Shukla' WHERE firstname='Vansh';
+
+#UC5
+DELETE FROM addressbook WHERE firstname='Shivansh';
