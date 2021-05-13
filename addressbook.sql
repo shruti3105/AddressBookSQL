@@ -35,3 +35,6 @@ SELECT * FROM addressbook WHERE city='Kanpur' OR state='Uttarakhand';
 #UC7
 SELECT COUNT(city) FROM addressbook;
 SELECT COUNT(state) FROM addressbook;
+
+#UC8
+SELECT * FROM addressbook WHERE city='Kanpur' ORDER BY firstname;
