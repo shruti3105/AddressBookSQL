@@ -28,3 +28,6 @@ UPDATE addressbook SET lastname='Shukla' WHERE firstname='Vansh';
 
 #UC5
 DELETE FROM addressbook WHERE firstname='Shivansh';
+
+#UC6
+SELECT * FROM addressbook WHERE city='Kanpur' OR state='Uttarakhand';
