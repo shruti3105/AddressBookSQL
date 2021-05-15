@@ -38,3 +38,21 @@ SELECT COUNT(state) FROM addressbook;
 
 #UC8
 SELECT * FROM addressbook WHERE city='Kanpur' ORDER BY firstname;
+
+#inserting more data
+INSERT INTO addressbook VALUES
+('Prakhar','Sharma','500 road','Shimla','Himachal Pradesh',20562,9034567536,'mno@ty.com'),
+('Shalini','Sachdeva','12 lane','Bhopal','Madhya Pradesh',96363,7774567536,'sha@uv.com'),
+('Joseph','Diaz','111 town','Lucknow','Uttar Pradesh',77443,9876542485,'wer@qq.com');
+
+#UC9
+ALTER TABLE addressbook ADD type CHAR(150);
+#updating data
+UPDATE addressbook SET type='Friends' WHERE firstname='Vansh';
+UPDATE addressbook SET type='Profession' WHERE firstname='Shalini';
+UPDATE addressbook SET type='Profession' WHERE firstname='Prakhar';
+UPDATE addressbook SET type='Family' WHERE firstname='Joseph';
+UPDATE addressbook SET type='Friends' WHERE firstname='Anish';
+
+#UC10
+SELECT type,COUNT(type) FROM addressbook GROUP BY type;
