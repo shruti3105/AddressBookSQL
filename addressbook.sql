@@ -58,6 +58,6 @@ SELECT type,COUNT(type) FROM addressbook GROUP BY type;
 
 #UC11
 INSERT INTO addressbook VALUES
-('Preerna','Tiwari','abc town','Bangalore','Karnataka',99963,9874567536,'ash@cv.com','Family'),
-('Preerna','Tiwari','abc town','Bangalore','Karnataka',99963,9874567536,'ash@cv.com','Friends');
-#not possible as email is a primary key and cannot be repeated
+('Prerna','Tiwari','abc town','Bangalore','Karnataka',99963,987456536,'ash@cv.com','Family'),
+('Prerna','Tiwari','abc town','Bangalore','Karnataka',99963,987456536,'ash@cv.com','Friends');
+#not possible as phoneno is a primary key and cannot be repeated
