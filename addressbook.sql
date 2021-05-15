@@ -52,3 +52,6 @@ UPDATE addressbook SET type='Profession' WHERE firstname='Shalini';
 UPDATE addressbook SET type='Profession' WHERE firstname='Prakhar';
 UPDATE addressbook SET type='Family' WHERE firstname='Joseph';
 UPDATE addressbook SET type='Friends' WHERE firstname='Anish';
+
+#UC10
+SELECT type,COUNT(type) FROM addressbook GROUP BY type;
